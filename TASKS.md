@@ -11,25 +11,32 @@
 
 ---
 
+## Design System
+
+- [ ] Tokens de cor e tipografia
+- [ ] Componentes base de UI (revisão)
+
+---
+
 ## Layout
 
 - [ ] Navbar
 - [ ] Hero
 - [ ] Serviços
 - [ ] Sobre
-- [ ] Equipa
 - [ ] Diferenciais
+- [ ] Equipa
 - [ ] Antes e Depois
 - [ ] Testemunhos
 - [ ] FAQ
-- [ ] Contacto
+- [ ] Contacto (formulário interface + botão WhatsApp)
 - [ ] Footer
 
 ---
 
 ## Funcionalidades
 
-- [ ] Formulário
+- [ ] RGPD (banner de cookies + política de privacidade)
 - [ ] SEO
 - [ ] Performance
 - [ ] Responsividade

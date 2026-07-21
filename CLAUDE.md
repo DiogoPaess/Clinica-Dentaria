@@ -28,17 +28,21 @@ Sempre reutilizar componentes.
 
 Nunca duplicar código.
 
-Componentes reutilizáveis devem ficar em:
+components/ui:
 
-components/ui
+Apenas primitivos do shadcn/ui (button, input, dialog, etc), gerados via CLI, nunca editados manualmente sem necessidade.
 
-Seções da página:
+components/common:
 
-components/sections
+Componentes reutilizáveis criados para este projeto (cards, badges, wrappers, etc).
 
-Layouts:
+components/layout:
 
-components/layout
+Navbar, Footer, containers estruturais.
+
+components/sections:
+
+Seções de página (Hero, Serviços, Sobre, etc), geralmente não reutilizadas fora da página.
 
 Utilitários:
 
@@ -173,3 +177,13 @@ Para cada nova funcionalidade:
 4. Implementar.
 5. Revisar acessibilidade.
 6. Revisar performance.
+7. Revisar responsividade.
+
+---
+
+## Decisões do Projeto
+
+- next-themes: mantido instalado, sem dark mode implementado por enquanto. Tokens de cor devem ser criados como CSS variables semânticas (--background, --foreground, --accent-gold, etc) para permitir dark mode futuro sem refactor.
+- Formulário de Contacto: nesta fase, apenas interface (react-hook-form + Zod para validação client-side), sem integração de envio. Futuro: Resend para e-mail, botão de WhatsApp (componente separado, link direto wa.me, não depende do formulário), possível integração com Calendly.
+- Antes e Depois / Testemunhos: uso já confirmado com a clínica/advogado quanto às regras da Ordem dos Médicos Dentistas.
+- RGPD: pendente — banner de cookies e política de privacidade a implementar antes do deploy.
