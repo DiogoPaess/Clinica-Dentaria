@@ -26,7 +26,7 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="en"
+      lang="pt-PT"
       className={`${fraunces.variable} ${inter.variable} h-full antialiased`}
     >
       <body className="flex min-h-full flex-col">{children}</body>
