@@ -54,6 +54,7 @@
   --input: oklch(0.9 0.015 250);
   --ring: oklch(0.6 0.04 250);
   --radius: 0.625rem;
+  --hero-background: oklch(0.97 0.01 250);
 }
 
 .dark {
@@ -75,6 +76,7 @@
   --border: oklch(1 0 0 / 10%);
   --input: oklch(1 0 0 / 15%);
   --ring: oklch(0.6 0.04 250);
+  --hero-background: oklch(0.26 0.045 250);
 }
 
 @layer base {
@@ -86,6 +88,7 @@
   }
   html {
     @apply font-sans;
+    scroll-padding-top: 4rem;
   }
   h1,
   h2,

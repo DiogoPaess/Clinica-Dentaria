@@ -187,3 +187,4 @@ Para cada nova funcionalidade:
 - Formulário de Contacto: nesta fase, apenas interface (react-hook-form + Zod para validação client-side), sem integração de envio. Futuro: Resend para e-mail, botão de WhatsApp (componente separado, link direto wa.me, não depende do formulário), possível integração com Calendly.
 - Antes e Depois / Testemunhos: uso já confirmado com a clínica/advogado quanto às regras da Ordem dos Médicos Dentistas.
 - RGPD: pendente — banner de cookies e política de privacidade a implementar antes do deploy.
+- Hero: particle system em canvas incluído por decisão consciente do cliente, aceitando trade-off de performance (Client Component + JS contínuo). Ciente que isso pode impactar métricas de Lighthouse/Core Web Vitals nesta seção especificamente.
