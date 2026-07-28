@@ -43,9 +43,9 @@ const DIFERENCIAIS: Diferencial[] = [
 function DiferencialItem({ icon: Icon, title, description }: Diferencial) {
   return (
     <CardContainer containerClassName="w-full py-0" className="w-full">
-      <CardBody className="flex w-full flex-col items-center gap-3 text-center">
+      <CardBody className="bg-card flex w-full flex-col items-center gap-3 rounded-lg p-6 text-center">
         <CardItem translateZ={40}>
-          <div className="bg-background rounded-full p-4">
+          <div className="bg-muted rounded-full p-4">
             <Icon className="text-primary size-7" aria-hidden="true" />
           </div>
         </CardItem>
@@ -70,7 +70,7 @@ export function Diferenciais() {
           </h2>
         </div>
 
-        <div className="lg:divide-border grid grid-cols-2 gap-8 lg:grid-cols-4 lg:divide-x">
+        <div className="grid grid-cols-2 gap-8 lg:grid-cols-4">
           {DIFERENCIAIS.map((item) => (
             <DiferencialItem key={item.title} {...item} />
           ))}
