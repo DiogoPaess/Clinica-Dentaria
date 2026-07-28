@@ -23,9 +23,12 @@
 - [ ] Navbar
 - [ ] Hero
 - [ ] Serviços
+  - Serviços: cards atualmente estáticos (sem link). Converter para `<a>`/`<Link>` quando existirem páginas de detalhe por serviço.
 - [ ] Sobre
 - [ ] Diferenciais
+  - Diferenciais: conteúdo placeholder (tecnologia, anos de experiência, certificações, atendimento) — atualizar com dados reais da clínica.
 - [ ] Equipa
+  - Equipa: nomes, especialidades e fotos são placeholder — atualizar com dados reais. Redes sociais dos profissionais ainda não implementadas (aguardando confirmação se serão incluídas).
 - [ ] Antes e Depois
 - [ ] Testemunhos
 - [ ] FAQ
