@@ -30,6 +30,7 @@
 - [ ] Equipa
   - Equipa: nomes, especialidades e fotos são placeholder — atualizar com dados reais. Redes sociais dos profissionais ainda não implementadas (aguardando confirmação se serão incluídas).
 - [ ] Antes e Depois
+  - Casos Clínicos: fotos antes/depois são placeholder — atualizar com casos reais (com consentimento dos pacientes, conforme já aprovado com a clínica/advogado).
 - [ ] Testemunhos
 - [ ] FAQ
 - [ ] Contacto (formulário interface + botão WhatsApp)
