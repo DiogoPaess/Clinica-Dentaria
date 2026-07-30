@@ -34,6 +34,7 @@
 - [ ] Testemunhos
   - Testemunhos: depoimentos e nomes são placeholder — atualizar com depoimentos reais de pacientes (com consentimento, mesmo cuidado legal já aplicado a Antes/Depois e Casos Clínicos).
 - [ ] FAQ
+  - FAQ: perguntas e respostas são placeholder — atualizar com conteúdo real da clínica (políticas de pagamento, seguros aceites, etc.).
 - [ ] Contacto (formulário interface + botão WhatsApp)
 - [ ] Footer
 
