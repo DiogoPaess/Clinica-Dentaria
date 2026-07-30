@@ -36,6 +36,7 @@
 - [ ] FAQ
   - FAQ: perguntas e respostas são placeholder — atualizar com conteúdo real da clínica (políticas de pagamento, seguros aceites, etc.).
 - [ ] Contacto (formulário interface + botão WhatsApp)
+  - Contacto: formulário sem integração de envio real — substituir por Resend antes do lançamento. Número de WhatsApp e informações de contacto (morada, horário) são placeholder — atualizar com dados reais da clínica.
 - [ ] Footer
 
 ---
@@ -46,6 +47,12 @@
 - [ ] SEO
 - [ ] Performance
 - [ ] Responsividade
+
+---
+
+## Segurança / Dependências
+
+- [ ] ATENÇÃO: next/postcss/sharp têm vulnerabilidades conhecidas (SSRF, DoS, bypass em Server Functions) corrigíveis apenas via upgrade forçado (next@16.2.12, fora do range atual). Requer teste isolado antes do deploy — não aplicar displicentemente.
 
 ---
 
