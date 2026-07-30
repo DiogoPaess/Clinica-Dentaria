@@ -32,6 +32,7 @@
 - [ ] Antes e Depois
   - Casos Clínicos: fotos antes/depois são placeholder — atualizar com casos reais (com consentimento dos pacientes, conforme já aprovado com a clínica/advogado).
 - [ ] Testemunhos
+  - Testemunhos: depoimentos e nomes são placeholder — atualizar com depoimentos reais de pacientes (com consentimento, mesmo cuidado legal já aplicado a Antes/Depois e Casos Clínicos).
 - [ ] FAQ
 - [ ] Contacto (formulário interface + botão WhatsApp)
 - [ ] Footer

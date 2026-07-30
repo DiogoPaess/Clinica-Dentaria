@@ -4,6 +4,7 @@ import { Servicos } from "@/components/sections/servicos";
 import { Diferenciais } from "@/components/sections/diferenciais";
 import { Equipa } from "@/components/sections/team/team";
 import { CasosClinicos } from "@/components/sections/casos-clinicos/casos-clinicos";
+import { Testemunhos } from "@/components/sections/testemunhos";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Diferenciais />
       <Equipa />
       <CasosClinicos />
+      <Testemunhos />
     </>
   );
 }
