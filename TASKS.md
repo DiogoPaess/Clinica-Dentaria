@@ -38,6 +38,7 @@
 - [ ] Contacto (formulário interface + botão WhatsApp)
   - Contacto: formulário sem integração de envio real — substituir por Resend antes do lançamento. Número de WhatsApp e informações de contacto (morada, horário) são placeholder — atualizar com dados reais da clínica.
 - [ ] Footer
+  - Footer: redes sociais são placeholder (sem URLs reais) — atualizar quando as contas da clínica existirem. Ícones sociais são genéricos, não logos de marca — considerar react-icons ou SVGs próprios se quiserem os logos reais.
 
 ---
 

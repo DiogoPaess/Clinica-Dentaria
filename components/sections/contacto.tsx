@@ -22,6 +22,7 @@ import {
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { WhatsappButton } from "@/components/ui/whatsapp-button";
+import { CONTACT_INFO } from "@/lib/contact-info";
 
 const contactFormSchema = z.object({
   nome: z.string().min(1, "O nome é obrigatório."),
@@ -184,14 +185,6 @@ function ContactForm() {
     </Form>
   );
 }
-
-// PLACEHOLDER: morada e horário são fictícios — atualizar com dados reais da
-// clínica.
-const CONTACT_INFO = {
-  phone: "+351 900 000 000",
-  address: "Rua Exemplo, 123, 1000-000 Lisboa",
-  hours: "Segunda a Sexta, 09h00–19h00",
-};
 
 function ContactInfo() {
   return (
