@@ -23,7 +23,7 @@
 - [ ] Navbar
 - [ ] Hero
 - [ ] Serviços
-  - Serviços: cards atualmente estáticos (sem link). Converter para `<a>`/`<Link>` quando existirem páginas de detalhe por serviço.
+  - Páginas de Serviços: descrições longas e imagens são placeholder — atualizar com conteúdo real e fotos por serviço.
 - [ ] Sobre
 - [ ] Diferenciais
   - Diferenciais: conteúdo placeholder (tecnologia, anos de experiência, certificações, atendimento) — atualizar com dados reais da clínica.

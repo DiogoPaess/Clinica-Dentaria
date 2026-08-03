@@ -15,7 +15,7 @@ import {
 } from "@/components/ui/sheet";
 
 // TODO: substituir por logo real da clínica quando disponível.
-const CLINIC_NAME = "Clínica Dentária";
+export const CLINIC_NAME = "Clínica Dentária";
 
 const NAV_LINKS = [
   { href: "#servicos", label: "Serviços" },

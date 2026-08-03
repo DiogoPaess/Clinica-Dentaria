@@ -1,5 +1,3 @@
-import { Navbar } from "@/components/layout/navbar";
-import { Footer } from "@/components/layout/footer";
 import { Hero } from "@/components/sections/hero";
 import { Servicos } from "@/components/sections/servicos";
 import { Diferenciais } from "@/components/sections/diferenciais";
@@ -12,7 +10,6 @@ import { Contacto } from "@/components/sections/contacto";
 export default function Home() {
   return (
     <>
-      <Navbar />
       <Hero />
       <Servicos />
       <Diferenciais />
@@ -21,7 +18,6 @@ export default function Home() {
       <Testemunhos />
       <Faq />
       <Contacto />
-      <Footer />
     </>
   );
 }
